@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: hsl(36, 100%, 99%);
+  }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 4rem;
+  }
+
+ 
+  .nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   list-style: none;
+   text-decoration: none;
+   font-size: 1.5rem;
+    width: 97%;
+    
+    color: #000;
+    background-color: hsl(36, 100%, 99%);
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  .the_w {
+   
+    font-weight: bold;
+    font-size: 4.5rem;
+  margin-right: 31rem;
+  }
+/* Path: news-homepage-main\style.css */
+
+.top_wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+  
+  
+  gap: 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  margin-right: 0.75rem;
+}
+.top_wrapper img {
+  width: 100%;
+  height: 55%;
+  object-fit: cover;
+}
+
+.side_box {
+  display : flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  align-items: center;
+  border: solid black 1px;
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+}
+.side_box_text {
+  background-color: hsl(240, 100%, 5%);
+  padding: 1rem;
+}
+.side_box_text h1 {
+ 
+  font-weight: 700;
+  margin-bottom: 4rem;
+  color: hsl(52, 89%, 47%);
+}
+.side_box_text p {
+  font-size: 1rem;
+  font-weight: 400;
+ margin-bottom: 1rem;
+  color: hsl(236, 13%, 42%);
+}
+hr {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.future_wrap {
+  display: grid;
+  grid-template-columns: 0.7fr 0.7fr;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+.future_wrap h1 {
+  font-size: 3.0rem;
+  line-height: 1.2; 
+  font-weight: 700;
+ 
+}
+
+.future_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+ 
+  padding: 1rem;
+}
+.btn {
+  
+  padding: 1rem 1rem;
+  background-color: hsl(13, 65%, 46%);
+  color: hsl(36, 100%, 99%);
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  max-width: 50%;
+  cursor: pointer;
+}
+
+.bottom_wrapper{
+ display: flex;
+ flex-direction: row;
+ min-width: 100%;
+ align-items: center;
+
+  
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  min-width: 33%;
+}
+.card img {
+  width: 10rem;
+  height: 8rem;
+  margin-top: 3rem;
+}
+.card_side {
+  margin-left: 1rem;
+  margin-top: 2.5rem;
+  
+ 
+}
+.card_number {
+  color: hsl(233, 8%, 79%);
+  font-size: 2.2rem;
+  }
+  .card_side p{
+    color: hsl(233, 8%, 79%);
+    font-size: 1rem;
+  }
